@@ -7,7 +7,44 @@ body {
 }
 
 h1{
-    font-size: 500%;
+    font-size: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     text-shadow: 0 4px 4px rgba(0,0,0,0.9);
+}
+
+.home {
+    margin-top: 100px;
+    height: 100vh;
+    width: auto;
+    
+}
+
+.labels {
+    text-align: center;
+    margin: 2em;
+}
+
+.label {
+    color: white;
+    position: relative;
+    font-size: 2em;
+}
+.label:hover {
+    color: black;
+    background: white;
+    transition-duration: 300ms;
+    
+}
+.label::after {
+    background: black;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    content: "";
+    border-radius: 6px;
 }

@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!--My Styling-->
     <link rel="stylesheet" type="text/css" media="screen" href="./Assets/css/style.css" />
-    <script src="./Assets/javascript/main.js"></script>
+    
 </head>
 
 <body>
@@ -46,27 +46,45 @@
         </div>
     </nav>-->
     <!--About Me / homepage-->
-    <div class="container home">
+    <div class="container mypage home">
         <div class="row">
             <div class="col-sm-12">
-                    <h1>Hello, <br> I'm Chuck <br> Full Stack Web Developer</h1>
+                <!--TODO:get cooler font from googlefonts-->
+                <h1>Hello, <br> I'm Chuck <br> <em>Full Stack Web Developer</em></h1><!--TODO:get Chuck to animate with a infinite pulse...-->
             </div>
+            <!--TODO:add links to github, linkedIn and other media, dynamically?-->
+        </div>
+        <div class="row labels">
+            <div class="col-12 col-md-4"><div class="btn label portfolio-button">Portfolio</div><div></div></div>
+            <div class="col-12 col-md-4"><div class="btn label contact-button">Contact</div><div></div></div>
+            <div class="col-12 col-md-4"><div class="btn label resources-button">Resources</div> <div></div></div>
         </div>
        
     </div>
 
     <!--Portfolio-->
-    <div class="container"></div>
+    <div class="container mypage portfolio">
+        <h1 class="col-12">Portfolio</h1>
+        <div class="container" id="portfolio-items"></div>
+    </div>
 
     <!--Contact-->
-    <div class="container"></div>
+    <div class="container mypage contact">
+        <form action="">
+            <label for="name">Name</label>
+                <input type="text" name="name">
+        
+        </form>
+    </div>
 
     <!--Resources-->
-    <div class="container"></div>
+    <div class="container mypage resources">
+        <!--TODO:Add sections for favorite tools, articles, frameworks, tutorials, APIs, node modules and more-->
+    </div>
 
 
 
-
+    <script src="./Assets/javascript/main.js"></script>
 </body>
 
 </html>
