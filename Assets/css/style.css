@@ -76,7 +76,7 @@ input, textarea {
     border-radius: 6px;
 }
 
-.home-icon {
+.homeIcon {
     height: 50px;
     width: 50px;
     position: absolute;
@@ -105,6 +105,44 @@ input, textarea {
     border-radius: 6px;
 }
 
-.items {
+.portfolioItems {
     margin-bottom: 20px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/*_____________________________- Portfolio Items -__________________________*/
+.itemCard {
+    display: inline-block;
+    width: 200px;
+    word-wrap: break-word;
+    white-space: normal;
+    height: 200px;
+    padding: 10px;
+    background: whitesmoke;
+    color: darkslategray;
+    margin: 0px 15px 10px 15px;
+    box-shadow: 0 12px 10px -6px black;
+}
+.itemTitle {
+    font-size: 20px;
+    font-weight: bold;
+    overflow: auto;
+    color: black;
+}
+.itemDescription {
+    overflow: scroll;
+    height: 70%;
+}
+.itemLink {
+    display: inline-block;
+    height: 10%;
+    text-decoration: none;
+}
+.repoLink {
+    color: gold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+}
+.deployedLink {
+   margin-left: 20px;
 }
