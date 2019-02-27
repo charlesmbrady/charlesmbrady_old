@@ -3,7 +3,7 @@
 //initial show home
 showHome();
 
-//TODO:1 add in portfolio items
+//portfolio items
 const portfolioItems = [
     {   
         name: "Hangman",
@@ -77,10 +77,10 @@ $("body").on("click", ".contact-button", function() {
 $("body").on("click", ".resources-button", function() {
     showResources();
 });
-$("body").on("click", ".home-button", function() {
+$("body").on("click", ".home-icon", function() {
     showHome();
-    //TODO:no home-button
 });
+
 //_______________________________________________________________________________________________________
 
 
@@ -88,6 +88,7 @@ $("body").on("click", ".home-button", function() {
 function hideAll() {
     $(".mypage").css("display", "none");
 }
+//TODO: GENERAL: make a delay so these appear to fade in and out
 function showHome(){
     hideAll();
     $(".home").css("display", "block");
