@@ -48,3 +48,29 @@ h1{
     content: "";
     border-radius: 6px;
 }
+
+label {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.9);
+}
+input, textarea {
+    box-shadow: 0 4px 4px rgba(0,0,0,0.9);
+}
+#contact-form {
+    position: relative;
+    padding: 20px;
+}
+#contact-form::after {
+    background: black;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    content: "";
+    border-radius: 6px;
+}
