@@ -86,3 +86,25 @@ input, textarea {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#portfolio-section {
+    position: relative;
+    color: white;
+    padding: 20px;
+}
+#portfolio-section::after {
+    background: black;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    content: "";
+    border-radius: 6px;
+}
+
+.items {
+    margin-bottom: 20px;
+}
