@@ -59,7 +59,7 @@ const portfolioItems = [
         type: "project",
         comments: ""
     },
-    {   //TODO:fill this out
+    {
         name: "WhereWatch",
         repoLink: "https://github.com/charlesmbrady/Project-1",
         deployedLink: "http://charlesmbrady.com/Project-1/",
@@ -72,7 +72,7 @@ const portfolioItems = [
 ];
 
 portfolioItems.forEach( function (item) {
-  //TODO:make clicking the title bring a modal down
+ 
    var itemCard = $("<div>").addClass("itemCard");
     var title = $("<div>").addClass("itemTitle").text(`${item.name}`);
     var description = $("<div>").addClass("itemDescription").text(`${item.description}`);
@@ -110,7 +110,6 @@ $("body").on("click", ".homeIcon", function () {
 function hideAll() {
     $(".mypage").css("display", "none");
 }
-//TODO: GENERAL: make a delay so these appear to fade in and out
 function showHome() {
     hideAll();
     $(".home").css("display", "block");
@@ -118,7 +117,6 @@ function showHome() {
 function showPortfolio() {
     hideAll();
     $(".portfolio").css('display', 'block');
-    //TODO:
 }
 function showContact() {
     hideAll();
@@ -127,8 +125,4 @@ function showContact() {
 function showResources() {
     hideAll();
     $(".resources").css('display', 'block');
-}
-
-function showPortfolioItems() {
-    //TODO: make this take in array of objects for portfolio items and assemble them dynamically
 }
