@@ -149,3 +149,24 @@ input, textarea {
 .deployedLink {
    margin-left: 20px;
 }
+
+
+
+
+/*__________________________________________- Resources -_____________________________________________*/
+#resources-items {
+    color: white;
+    position: relative;
+}
+#resources-items::after {
+    background: black;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    content: "";
+    border-radius: 6px;
+}
