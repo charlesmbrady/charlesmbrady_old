@@ -82,6 +82,7 @@ input, textarea {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 10;
     background-image: url("../images/home_icon.png");
     background-repeat: no-repeat;
     background-size: cover;
