@@ -1,2 +1,1 @@
-# Bootstrap-Portfolio
-Homework 2 part1
+# Portfolio
