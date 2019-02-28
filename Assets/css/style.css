@@ -130,6 +130,9 @@ input, textarea {
     overflow: auto;
     color: black;
 }
+.itemTitle:hover {
+    cursor: pointer;
+}
 .itemDescription {
     overflow: scroll;
     height: 70%;
