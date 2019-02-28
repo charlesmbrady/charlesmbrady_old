@@ -86,6 +86,9 @@ input, textarea {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.homeIcon:hover{
+    cursor: pointer;
+}
 
 #portfolio-section {
     position: relative;
