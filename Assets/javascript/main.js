@@ -76,8 +76,8 @@ portfolioItems.forEach( function (item) {
    var itemCard = $("<div>").addClass("itemCard");
     var title = $("<div>").addClass("itemTitle").text(`${item.name}`);
     var description = $("<div>").addClass("itemDescription").text(`${item.description}`);
-    var repo = $("<div>").addClass("itemLink").html(`<a href=${item.repoLink} class="repoLink">Repo</a>`);
-    var deployed = $("<div>").addClass("itemLink").html(`<a href=${item.deployedLink} class="deployedLink">Deployed</a>`);
+    var repo = $("<div>").addClass("itemLink").html(`<a href=${item.repoLink} class="repoLink" target="blank">Repo</a>`);
+    var deployed = $("<div>").addClass("itemLink").html(`<a href=${item.deployedLink} class="deployedLink" target="blank">Deployed</a>`);
 
     itemCard.append(title,description,repo,deployed);
 
