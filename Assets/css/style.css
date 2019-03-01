@@ -25,7 +25,10 @@ h1{
     text-align: center;
     margin: 2em;
 }
-
+button{
+    background: none;
+    border: none;
+}
 .label {
     color: white;
     position: relative;
