@@ -99,7 +99,7 @@ $("body").on("click", ".contactButton", function () {
 $("body").on("click", ".resourcesButton", function () {
     showResources();
 });
-$("body").on("touchstart click", ".homeIcon", function () {
+$("body").on("click touchstart", ".homeIcon", function () {
     removeHomeButtonDelays();
     showHome();
 });
