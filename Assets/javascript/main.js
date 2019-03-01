@@ -100,6 +100,7 @@ $("body").on("click", ".resourcesButton", function () {
     showResources();
 });
 $("body").on("click", ".homeIcon", function () {
+    removeHomeButtonDelays();
     showHome();
 });
 
@@ -125,4 +126,12 @@ function showContact() {
 function showResources() {
     hideAll();
     $(".resources").css('display', 'block');
+}
+
+
+function removeHomeButtonDelays() {
+    //grab home button elements and remove delay classes
+    $("#im-chuck").removeClass("delay-1s");
+    $("#fullstack").removeClass("delay-2s");
+    $(".label").removeClass("delay-3s");
 }
