@@ -67,6 +67,15 @@ const portfolioItems = [
         technologies: [],
         type: "project",
         comments: ""
+    },
+    {
+        name: "Constructor Hangman",
+        repoLink: "https://github.com/charlesmbrady/constructor-word-guess",
+        deployedLink: "#",
+        description: "Hangman CLI app",
+        technologies: [],
+        type: "project",
+        comments: ""
     }
 
 ];
