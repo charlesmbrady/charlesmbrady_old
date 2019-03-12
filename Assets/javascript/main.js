@@ -76,6 +76,15 @@ const portfolioItems = [
         technologies: [],
         type: "project",
         comments: ""
+    },
+    {
+        name: "Bamazon",
+        repoLink: "https://github.com/charlesmbrady/bamazon",
+        deployedLink: "#",
+        description: "Ebay-like app",
+        technologies: [],
+        type: "project",
+        comments: ""
     }
 
 ];
