@@ -1,0 +1,8 @@
+.portfolio-item {
+    width: 100%;
+    margin-bottom: 3%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px;
+    padding: 10px;
+}
