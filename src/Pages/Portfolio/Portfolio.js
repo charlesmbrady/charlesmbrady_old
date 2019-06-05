@@ -235,9 +235,8 @@ function Portfolio() {
           </Dropdown>
         </Col>
       </Row>
-      <Row className="portfolio-layout">
-        <Col>
-          <div id="portfolio-body row">
+      
+          
             {items.map((item, i) => (
               <PortfolioItem
                 key={i}
@@ -257,9 +256,7 @@ function Portfolio() {
             ))}
 
 
-          </div>
-        </Col>
-      </Row>
+          
 
     </Container>
   );
