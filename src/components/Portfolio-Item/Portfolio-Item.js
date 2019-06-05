@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import './style.css';
 import {
   Container,
   Row,
-  Col
+  Col,
+
 } from 'reactstrap';
 
 function PortfolioItem(props) {
@@ -28,6 +29,8 @@ function PortfolioItem(props) {
   }, []);
 
 
+
+
   return (
     <Container className="portfolio-item">
       <Row>
@@ -35,7 +38,7 @@ function PortfolioItem(props) {
         <Col>
           <Row>
             <Col>
-              <h5>{name}</h5>
+              <h3>{name}</h3>
             </Col>
 
           </Row>
@@ -50,35 +53,44 @@ function PortfolioItem(props) {
             <Col>
               <Row>
                 <Col>
-                  <a href={repoLink}>GitHub Repo</a>
+                {deployedLink ? (
+                  <div><a href={repoLink} target="_blank">GitHub Repo</a> | <a href={deployedLink} target="_blank">Deployed App</a></div>
+                ) : (
+                  <a href={repoLink} target="_blank">GitHub Repo</a>
+                )}
+                  
                 </Col>
+                
 
               </Row>
-              <Row>
-                <Col>
-                  <a href={deployedLink}>Deployed App</a>
-                </Col>
-              </Row>
+              
             </Col>
           </Row>
 
         </Col>
 
-        <Col>
+        <Col className="col-md-6 col-sm-12">
           <Row>
             <Col>
-              <img src={image || "https://via.placeholder.com/150/000000/FFFFFF/?text=No Video"} alt="screenshot"></img>
+
+              {youtubeLink ? (
+                <iframe width="auto" height="auto" src={youtubeLink} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              ) : (
+                  <img className="video" src={image || "https://via.placeholder.com/150/000000/FFFFFF/?text=No Video"} alt="screenshot"></img>
+                )}
+
             </Col>
           </Row>
           <Row>
             <Col>
-              <span><strong>Tags:</strong></span> {tags.join("") || "No Tags"}
+              {/* TODO: change this to tags being links that become the filter */}
+              <span><strong>Tags:</strong></span> {tags.join(", ") || "No Tags"}
             </Col>
           </Row>
         </Col>
 
       </Row>
-    </Container>
+    </Container >
   );
 
 }

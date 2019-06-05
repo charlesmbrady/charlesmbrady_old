@@ -8,7 +8,7 @@ import {
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Portfolio from './Pages/Portfolio/Portfolio';
-import Contact from './Pages/Contact/Contact';
+import Resume from './Pages/Resume/Resume';
 import Resources from './Pages/Resources/Resources';
 import './App.css';
 /************ Components  **************/
@@ -21,7 +21,7 @@ To update charlesmbrady.com :
   - checkout to the "source" branch, make any changes and 
     update the branch with a git push
 
-  - run "npm run deploy" from the root
+  - run "npm run deploy" from the root (might be able to just stop here actually?)
 
   - checkout to the "master" branch
 
@@ -40,7 +40,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/resume" component={Resume} />
           <Route exact path="/resources" component={Resources} />
           <Route component={Home} />
         </Switch>

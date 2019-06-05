@@ -12,6 +12,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to bottom, #004EFF, white);
+  /* background-image: url('/assets/fullstack.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {

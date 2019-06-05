@@ -24,26 +24,26 @@ function Navi() {
 
     return (
         <div>
-            <Navbar color="light" light expand="md">
+            <Navbar className="navi" color="light" light expand="md">
                 <Link to="/" className="navbar-brand">Charles Brady</Link>
                 <NavbarToggler onClick={toggler} />
                 <Collapse isOpen={toggle} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="https://www.github.com" target="_blank">GitHub</NavLink>
+                            <NavLink href="https://github.com/charlesmbrady" target="_blank">GitHub</NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem> TODO: add this back once I have something to put there
                             <Link to="/about" className="nav-link">About</Link>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
                             <Link to="/portfolio" className="nav-link">Portfolio</Link>
                         </NavItem>
                         <NavItem>
-                            <Link to="/contact" className="nav-link">Contact</Link>
+                            <Link to="/resume" className="nav-link">Resume</Link>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <Link to="/resources" className="nav-link">Resources</Link>
-                        </NavItem>
+                        </NavItem> */}
                     </Nav>
                 </Collapse>
             </Navbar>
