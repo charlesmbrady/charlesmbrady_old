@@ -24,7 +24,7 @@ function Resume() {
   return (
     <Container>
       <div>
-        <h1>Resume</h1>
+        
         <Row className="row">
           <Col>
             <div className="resume-section section-head">
