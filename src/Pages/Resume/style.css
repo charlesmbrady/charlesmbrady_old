@@ -1,0 +1,25 @@
+.section-head {
+    background-image: linear-gradient(to top, rgb(204, 202, 202), white);
+    padding: 15px;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 3px black;
+
+}
+.section-head:hover {
+    background-image: linear-gradient(to top, rgb(204, 202, 202), white);
+    cursor: pointer;
+
+}
+.resume-section{
+  
+}
+
+.first-collapse {
+    background: white;
+    padding: 15px;
+}
+
+.align-content-left{
+    text-align: left;
+}
