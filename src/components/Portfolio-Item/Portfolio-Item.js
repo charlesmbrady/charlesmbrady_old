@@ -32,8 +32,8 @@ function PortfolioItem(props) {
 
 
   return (
-    
-      <Row className="portfolio-item"> 
+    <Container className="portfolio-item">
+      <Row>
 
         <Col>
           <Row>
@@ -74,7 +74,7 @@ function PortfolioItem(props) {
             <Col>
 
               {youtubeLink ? (
-                <iframe width="auto" height="auto" src={youtubeLink} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="auto" height="auto" src={youtubeLink} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               ) : (
                   <img className="video" src={image || "https://via.placeholder.com/150/000000/FFFFFF/?text=No Video"} alt="screenshot"></img>
                 )}
@@ -90,7 +90,7 @@ function PortfolioItem(props) {
         </Col>
 
       </Row>
-
+    </Container >
   );
 
 }
