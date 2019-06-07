@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/precache-manifest.6a68bb89aa2e4eee64c8f235c631bb17.js"
+=======
+  "/precache-manifest.436f282d668a33cb7341b80e39069ab6.js"
+>>>>>>> parent of 9f996d8e... initial portfolio remake with react
 );
 
 self.addEventListener('message', (event) => {

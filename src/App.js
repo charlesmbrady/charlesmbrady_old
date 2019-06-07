@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import {
   BrowserRouter as Router,
   Switch,
@@ -46,6 +47,16 @@ function App() {
         </Switch>
       </div>
     </Router>
+=======
+import Home from './components/Home/Home';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Home />
+    </div>
+>>>>>>> parent of 9f996d8e... initial portfolio remake with react
   );
 }
 
