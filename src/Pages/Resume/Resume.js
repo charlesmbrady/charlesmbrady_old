@@ -23,8 +23,6 @@ function Resume() {
 
   return (
     <Container>
-      <div>
-        
         <Row className="row">
           <Col>
             <div className="resume-section section-head">
@@ -116,9 +114,6 @@ function Resume() {
             </Collapse>
           </Col>
         </Row>
-
-
-      </div>
     </Container>
   );
 

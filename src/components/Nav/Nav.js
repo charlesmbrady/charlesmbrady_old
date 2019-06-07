@@ -30,16 +30,16 @@ function Navi() {
                 <Collapse isOpen={toggle} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="https://github.com/charlesmbrady" target="_blank">GitHub</NavLink>
+                            <NavLink href="https://github.com/charlesmbrady" target="_blank" onClick={toggler}>GitHub</NavLink>
                         </NavItem>
                         {/* <NavItem> TODO: add this back once I have something to put there
                             <Link to="/about" className="nav-link">About</Link>
                         </NavItem> */}
                         <NavItem>
-                            <Link to="/portfolio" className="nav-link">Portfolio</Link>
+                            <Link to="/portfolio" className="nav-link" onClick={toggler}>Portfolio</Link>
                         </NavItem>
                         <NavItem>
-                            <Link to="/resume" className="nav-link">Resume</Link>
+                            <Link to="/resume" className="nav-link" onClick={toggler}>Resume</Link>
                         </NavItem>
                         {/* <NavItem>
                             <Link to="/resources" className="nav-link">Resources</Link>

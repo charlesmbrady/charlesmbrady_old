@@ -17,15 +17,11 @@ body {
   background-size: cover;
 }
 
+.row {
+  margin-top: 15px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.portfolio-item {
-  margin-top: 15px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0px 0px 60px 5px black;
-  /* background-image: linear-gradient(to bottom, white, rgb(216, 216, 216)); */
 }
