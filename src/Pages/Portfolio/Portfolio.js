@@ -199,8 +199,8 @@ function Portfolio() {
       date: "",
       repoLink: "https://github.com/charlesmbrady/GoogleBookSearch",
       deployedLink: "https://google-books-search-45506.herokuapp.com/",
-      description: "Creates duplicate records based on fields you select.  Meant to create entire database table of known data-quality including 'bad' data.",
-      technologies: ["React","CircleCI","Javascript", "HTML", "CSS", "Bootstrap","Express","Node", "Heroku"],
+      description: "Search for books using the GoogleBooks API",
+      technologies: ["React","MongoDB","Javascript", "HTML", "CSS", "Bootstrap","Express","Node", "Heroku"],
       comments: "", //had a lot of trouble with inserting mongoDB data in large scales, also had a hard time with the downloading csv
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI

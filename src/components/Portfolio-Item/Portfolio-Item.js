@@ -76,7 +76,7 @@ function PortfolioItem(props) {
               {youtubeLink ? (
                 <iframe width="auto" height="auto" src={youtubeLink} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               ) : (
-                  <img className="img-fluid" src={image || "https://via.placeholder.com/150/000000/FFFFFF/?text=No Video"} alt="screenshot"></img>
+                  <img className="img-fluid img-thumbnail" src={image || "https://via.placeholder.com/150/000000/FFFFFF/?text=No Video"} alt="screenshot"></img>
                 )}
 
             </Col>
