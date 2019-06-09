@@ -21,7 +21,7 @@ function Portfolio() {
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "",  //TODO: create youtube video going over this
-      image: "",
+      image: "/assets/dupegen.png",
       tags: ["React","download","csv","CircleCI","Javascript", "HTML", "CSS", "Bootstrap","Continuous Integration","Express","Node","fullstack"],
     },
     //TODO: add google book search, sipspot, and dog finder
@@ -36,7 +36,7 @@ function Portfolio() {
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "", //TODO: create youtube video going through this
-      image: "",
+      image: "/assets/hangman.png",
       tags: ["javascript", "html", "css", "bootstrap"]
       
     },
@@ -51,7 +51,7 @@ function Portfolio() {
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "",  //TODO: create youtube video going over this
-      image: "",
+      image: "/assets/sipspot.png",
       tags: ["React","MongoDB","Javascript", "HTML", "CSS", "Bootstrap","Express","Node","fullstack", "authentication"],
     },
     {
@@ -65,7 +65,7 @@ function Portfolio() {
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "",  //TODO: create youtube video going over this
-      image: "",
+      image: "/assets/scrapnsurf.png",
       tags: ["React","MongoDB","Javascript", "HTML", "CSS", "Bootstrap","Express","Node","fullstack"],
     },
     {
@@ -79,7 +79,7 @@ function Portfolio() {
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "",  //TODO: create youtube video going over this and POLISH
-      image: "",
+      image: "/assets/woofer.png",
       tags: ["Handlebars", "authentication","mySQL","Sequelize","Express","Node","TravisCI"],
     },
     {
@@ -93,7 +93,7 @@ function Portfolio() {
       type: "activity", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "",  //TODO: create youtube video going through this
-      image: "",
+      image: "/assets/starwarsrpg.png",
       tags: ["Javascript", "jQuery", "bootstrap", "html", "css"]
     },
     {
@@ -107,7 +107,7 @@ function Portfolio() {
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "",  //TODO: create youtube video going through this
-      image: "",
+      image: "/assets/trivia.png",
       tags: ["html","css","timers","jQuery","html","bootstrap"]
     },
     {
@@ -121,7 +121,7 @@ function Portfolio() {
       type: "", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "", //TODO: create youtube video going through this
-      image: "",
+      image: "/assets/giftastic.png",
       tags: ["javascript", "html", "css", "bootstrap", "jQuery", "API"]
     },
     {
@@ -135,7 +135,7 @@ function Portfolio() {
       type: "activity", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "", //TODO: create youtube video going through this
-      image: "",
+      image: "/assets/trainscheduler.png",
       tags: ["moment", "firebase", "javascript", "html", "css", "bootstrap", "jQuery", "API"],
     },
     {
@@ -163,7 +163,7 @@ function Portfolio() {
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "",
-      image: "",
+      image: "/assets/wherewatch.png",
       tags: ["firebase","API","javascript","html","css"]
     },
     {
@@ -177,7 +177,7 @@ function Portfolio() {
       type: "activity", //project, activity
       cli: true, //if this is a CLI only app or  it has a UI
       youtubeLink: "",
-      image: "",
+      image: "/assets/constructorwordguess.png",
       tags: ["inquirer","javascript", "node", "CLI"],
     },
     {
@@ -205,7 +205,7 @@ function Portfolio() {
       type: "project", //project, activity
       cli: false, //if this is a CLI only app or  it has a UI
       youtubeLink: "",  //TODO: create youtube video going over this and POLISH
-      image: "",
+      image: "/assets/googlebooksearch.png",
       tags: ["React","MongoDB","Express","Node"],
     },
   ];
