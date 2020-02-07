@@ -1,3 +1,6 @@
-package-lock.json
-.DS_Store
 node_modules
+package-lock.json
+precache-manifest*
+service-worker.js
+asset-manifest.json
+build
